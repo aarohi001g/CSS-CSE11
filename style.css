@@ -1,0 +1,49 @@
+h2{
+    color:aquamarine;
+    background-color: brown;
+    
+}
+p{
+    color: brown
+    text-align: center;
+    font-size: 30px;
+}
+
+.par{
+    color: blueviolet;
+   text-align: center;
+   background-color: rgb(241, 149, 11);
+}
+
+/* for font size- em, rem, %, smaller and larger */
+#jk{
+    color: antiquewhite;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    color: azure;
+    background-color: aquamarine;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 100px;
+    border: 1px solid red;
+}
+
+
+
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+
+
+
+
