@@ -4,3 +4,36 @@
     }
    
 }
+
+.box {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(59, 189, 240);
+}
+
+@media (min-width: 769px)  {
+   .box {
+       
+        background-color: rgb(6, 187, 237);
+    }
+   
+}
+
+
+
+li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 152, 152);
+    padding: 10px;
+}
+
+
+
+/* display: none; */
+  
+
