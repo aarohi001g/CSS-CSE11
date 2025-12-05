@@ -32,8 +32,65 @@ nav ul{
     padding: 10px;
 }
 
+@media (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: item;
+}
+
+
+.logo{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: blue;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+}
+
+.menu a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.hamburger {
+font-size: 2rem;
+    color: violet;
+    cursor: pointer;
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    .menu {
+        display: flex;
+    }
+}
 
 
 /* display: none; */
-  
+
+
+
+
 
